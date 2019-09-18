@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		8E8AA2D42331B1A700299B51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8AA2D32331B1A700299B51 /* AppDelegate.swift */; };
 		8E8AA2D62331B1A700299B51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8AA2D52331B1A700299B51 /* ViewController.swift */; };
-		8E8AA2D92331B1A700299B51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8AA2D72331B1A700299B51 /* Main.storyboard */; };
 		8E8AA2DB2331B1A800299B51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8AA2DA2331B1A800299B51 /* Assets.xcassets */; };
 		8E8AA2DE2331B1A800299B51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8AA2DC2331B1A800299B51 /* LaunchScreen.storyboard */; };
 		8E8AA2E92331B1A800299B51 /* PokedexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8AA2E82331B1A800299B51 /* PokedexTests.swift */; };
 		8E8AA2F42331B1A800299B51 /* PokedexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8AA2F32331B1A800299B51 /* PokedexUITests.swift */; };
+		8E8AA3012331B9C600299B51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8AA2D72331B1A700299B51 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -229,9 +229,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E8AA3012331B9C600299B51 /* Main.storyboard in Resources */,
 				8E8AA2DE2331B1A800299B51 /* LaunchScreen.storyboard in Resources */,
 				8E8AA2DB2331B1A800299B51 /* Assets.xcassets in Resources */,
-				8E8AA2D92331B1A700299B51 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +442,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = itesm.Pokedex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -460,7 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = itesm.Pokedex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
